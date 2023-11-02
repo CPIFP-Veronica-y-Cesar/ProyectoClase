@@ -1,0 +1,16 @@
+<ion-card>
+  <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+  <ion-card-header>
+    <h3>Producto</h3>
+    <ion-card-title>{{item?.name}}</ion-card-title>
+    <h3>Precio</h3>
+    <ion-card-title>{{item?.price}}€</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    {{item?.description}}
+  </ion-card-content>
+  <ion-button class="close-button" fill="clear" aria-label="Delete" (click)="onDeleteClick($event)">
+    <ion-icon slot="icon-only"  color="primary" name="trash" aria-hidden="true"></ion-icon>
+  </ion-button>
+</ion-card>

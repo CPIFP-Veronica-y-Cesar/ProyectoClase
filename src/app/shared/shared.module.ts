@@ -4,7 +4,8 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { CardComponentComponent } from './components/card-component/card-component.component';
+import { HttpClientModule } from '@angular/common/http';
 //import { UserDetailComponent } from './components/user-detail/user-detail.component';
 
 
@@ -16,13 +17,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     //Pipes
     
     //Components
-    
+    CardComponentComponent
     /*UserDetailComponent*/],
   imports: [
     CommonModule,
     IonicModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    
   ],
   exports:[
     CommonModule, 
@@ -33,7 +35,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     //Pipes
     
     //Components
-    
+    CardComponentComponent
     /*UserDetailComponent*/
   ]
 })

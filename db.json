@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Smartwatch Infinity X",
+      "description": "Un smartwatch elegante con pantalla táctil a color, monitoreo de actividad física y notificaciones inteligentes. ¡La fusión perfecta entre estilo y funcionalidad!",
+      "price": 99.99
+    },
+    {
+      "id": 2,
+      "name": "Auriculares NoiseBlast Pro",
+      "description": "Sumérgete en la calidad de sonido premium con estos auriculares. Cancelación de ruido activa, batería de larga duración y diseño plegable para llevar la música contigo a donde vayas. ¡Una experiencia auditiva inigualable!",
+      "price": 79.99
+    },
+    {
+      "id": 3,
+      "name": "Cámara Digital PixelPerfect 4K",
+      "description": "Captura momentos inolvidables con esta cámara de última generación. Resolución 4K, zoom óptico avanzado y funciones inteligentes que garantizan fotos y videos de calidad profesional en cada disparo.",
+      "price": 599.99
+    },
+    {
+      "id": 4,
+      "name": "Teclado Mecánico HyperType Pro",
+      "description": "Experimenta la pulsación precisa y la respuesta táctil de este teclado mecánico de alto rendimiento. Retroiluminación personalizable, diseño duradero y perfecto para gamers y profesionales que buscan una experiencia de escritura superior.",
+      "price": 129.99
+    }
+  ]
+}

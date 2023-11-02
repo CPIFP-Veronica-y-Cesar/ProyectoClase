@@ -5,16 +5,22 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-<ion-button (click)="about()">About</ion-button>
 <ion-content [fullscreen]="true">
+  <ion-button (click)="about()">About</ion-button>
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Blank</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="items-panel">
+    <app-card-component 
+      *ngFor="let item of (items?.items$ | async);let i = index" 
+      [item]="item" 
+      (onDeleteClicked)="onDeleteClicked(item)"
+      >
+    </app-card-component>
   </div>
+  <ion-loading [isOpen]="loading" class="custom-loading"  message="Loading..." ></ion-loading>
+ 
 </ion-content>
